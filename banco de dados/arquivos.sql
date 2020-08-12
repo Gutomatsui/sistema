@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 12-Ago-2020 às 15:54
+-- Generation Time: 12-Ago-2020 às 16:00
 -- Versão do servidor: 5.7.26
 -- versão do PHP: 5.6.40
 
@@ -780,7 +780,7 @@ CREATE TABLE IF NOT EXISTS `usuario` (
 --
 
 INSERT INTO `usuario` (`id`, `nome`, `sobrenome`, `email`, `dt_cadastro`, `fl_ativo`, `id_empresa`, `id_perfil`, `senha`) VALUES
-(2, 'Jean', 'Bieda', 'jeanbieda@gmail.com', '2019-08-10 00:59:46', b'1', 1, 2, 'e10adc3949ba59abbe56e057f20f883e'),
+(2, 'Angelo', 'Augusto', 'angelo@matsuitecnologia.com.br', '2019-08-10 00:59:46', b'1', 1, 2, 'e10adc3949ba59abbe56e057f20f883e'),
 (18, 'JEAN FILIPE BIEDA 1', '', 'jean@sshsistemas.com.br', '2019-11-27 03:45:54', b'1', 63, 5, '123456'),
 (19, 'Angelo Augusto', '', 'angelo@matsuitecnologia.com.br', '2020-03-08 01:39:00', b'1', 1, 2, '');
 
