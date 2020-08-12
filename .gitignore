@@ -1,0 +1,42 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+!application/*/.htaccess
+
+composer.lock
+
+application/config/config.php
+application/config/database.php
+
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+uploads/1/ipad-820272_1920.jpg
+uploads/64/WhatsApp Image 2019-11-30 at 1.49.35 PM.jpeg
+uploads/64/working-791175_640.jpg
+uploads/65/ipad-820272_1920.jpg
+uploads/65/working-791175_640.jpg
+uploads/64/home-office-336373_1920.jpg
+uploads/63/WhatsApp Image 2019-11-30 at 1.49.35 PM.jpeg
